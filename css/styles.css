@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+    color: lightgray;
+}
+info {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+}
+gameBoard {
+    width: 95vh;
+    height: 95vh;
+    background-color: #002869;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+info {
+    width: 50vh;
+    background-color: gray;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.tile {
+    float:left;
+    width: 5vh;
+    height: 5vh;
+    text-align: center;
+    margin: 0;
+    background-color: #002869;
+    background-size:5vh 5vh;
+}
+.player {
+    background-image: url("../img/player.png");
+}
+.chestClosed {
+    background-image: url("../img/chest/chest1.png");
+}
+.chestOpen {
+    background-image: url("../img/chest/chest6.png");
+}
+.redPilar {
+    background-image: url("../img/pillarRed/pillar.png");
+}
+.redMob {
+    background-image: url("../img/pillarRed/mob.png");
+}
+.redStone {
+    background-image: url("../img/pillarRed/stone.png");
+}
+.greenPilar {
+    background-image: url("../img/pillarGreen/pillar.png");
+}
+.greenMob {
+    background-image: url("../img/pillarGreen/mob.png");
+}
+.greenStone {
+    background-image: url("../img/pillarGreen/stone.png");
+}
+.bluePilar {
+    background-image: url("../img/pillarBlue/pillar.png");
+}
+.blueMob {
+    background-image: url("../img/pillarBlue/mob.png");
+}
+.blueStone {
+    background-image: url("../img/pillarBlue/stone.png");
+}
+.wallBC {
+    background-image: url("../img/wall/wallB.png");
+}
+.wallBL {
+    background-image: url("../img/wall/wallBL.png");
+}
+.wallBR {
+    background-image: url("../img/wall/wallBR.png");
+}
+.wallC {
+    background-image: url("../img/wall/wallC.png");
+}
+.wallL {
+    background-image: url("../img/wall/wallL.png");
+}
+.wallR {
+    background-image: url("../img/wall/wallR.png");
+}
+.wallTC {
+    background-image: url("../img/wall/wallTC.png");
+}
+.wallTL {
+    background-image: url("../img/wall/wallTL.png");
+}
+.wallTR {
+    background-image: url("../img/wall/wallTR.png");
+}
+.wallTTC {
+    background-image: url("../img/wall/wallTTC.png");
+}
+.wallTTL {
+    background-image: url("../img/wall/wallTTL.png");
+}
+.wallTTR {
+    background-image: url("../img/wall/wallTTR.png");
+}
